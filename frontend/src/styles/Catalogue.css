@@ -1,0 +1,45 @@
+/* Catalogue.css */
+
+.catalogue {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .catalogue h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .catalogue-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .catalogue-item {
+    background: #fdfdfd;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  
+  .catalogue-item span {
+    font-weight: 500;
+  }
+  
+  @media (max-width: 600px) {
+    .catalogue-item {
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 1rem;
+    }
+  }
+  
